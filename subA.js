@@ -39,26 +39,26 @@ console.log(result5);}*/
 // let result6 = arrayToTest.map((elem)=> arrayToTest.filter((elem2)=>elem2===elem).length>1);
 // console.log(result6);
 ///7
-let result7 = arrayToTest;
+// let result7 = arrayToTest;
 
-const palindrome=(n)=> {
-    let nStr=toString(n);
-    let test=nStr.split("");
-    let nrs=test.map((elem)=> Number(elem));
-    let nrsR=nrs.reverse();
-    let result =true;
-    console.log(nrs);
-    console.log(nrsR);
-    for(let i=0;i<nrs.length;i++){
-        if(nrs[i]!==nrsR[i]){
-            result=false;
-        }
-    }
-    return result;
-}
+// const palindrome=(n)=> {
+//     let nStr=toString(n);
+//     let test=nStr.split("");
+//     let nrs=test.map((elem)=> Number(elem));
+//     let nrsR=nrs.reverse();
+//     let result =true;
+//     console.log(nrs);
+//     console.log(nrsR);
+//     for(let i=0;i<nrs.length;i++){
+//         if(nrs[i]!==nrsR[i]){
+//             result=false;
+//         }
+//     }
+//     return result;
+// }
 
-result7 = result7.filter((elem) => palindrome(elem) );
-console.log(result7);
+// result7 = arrayToTest.filter((elem) => palindrome(elem) );
+// console.log(result7);
 
 //CORECT:
 // const isPrime = (n) => {
@@ -76,3 +76,6 @@ console.log(result7);
 
 
 // console.log(isPrime(2), isPrime(4));
+let str="asdasdsa";
+let newStingArray=str.split("");
+newStingArray.map((elem)=> console.log(elem))
